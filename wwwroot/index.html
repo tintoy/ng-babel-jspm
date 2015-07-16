@@ -1,16 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="application">
 <head>
 	<meta charset="UTF-8">
 	<title>Angular, Babel, and JSPM</title>
-</head>
-<body>
-	<h1>AngularJS, Babel, and JSPM!</h1>
 
 	<script src="jspm_packages/system.js"></script>
 	<script src="config.js"></script>
 	<script>
 		System.import('./app/app');
 	</script>
+</head>
+<body ng-controller="MainController">
+	<h1>AngularJS, Babel, and JSPM!</h1>
+
+	<div>Message: {{message}}</div>
 </body>
 </html>

@@ -1,3 +1,7 @@
-import angular from 'angular';
+import angular from 'angular'
+import main from './main'
 
-console.log("Angular version", angular.version);
+angular.module('application', []);
+
+angular.module('application')
+	.controller('MainController', main.Controller);
