@@ -175,3 +175,5 @@ $RECYCLE.BIN/
 
 # NPM
 /node_modules/
+/wwwroot/app/
+/wwwroot/jspm_packages/
